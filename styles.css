@@ -15,25 +15,37 @@ body{
 	gap:10px;
 	border:5px solid black;
 }
+
 .book{
 	border:5px solid black;
 	width:100%;
 	text-align:center;
 	padding-top:10px;
 }
+
 .title,
 .author {
     text-align: left;
     width: 100%; 
     margin-left: 0;
 }
+
 .author{
-	color:#777777;
+	color: #777777; /* rgb(119, 119, 119) */
 }
+
 .title{
-	text-transform:uppercase;
-	font-weight:bolder;
+	text-transform: uppercase;
+	font-weight: bolder;
 }
-.price{
-	background-color:#2ecc71;
+
+/* REQUIRED FOR CYPRESS */
+.price {
+    background-color: rgb(46, 204, 113);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 8px 12px;
+    box-sizing: border-box;
 }
